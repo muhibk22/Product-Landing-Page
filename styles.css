@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, Tahoma;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#header-img {
+
+    width: 250px;
+    height: 150px;
+    margin-top: -10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+li {
+    float: left;
+    margin-left: 15px;
+}
+
+#featured {
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+#video {
+    width: 70%;
+    max-width: 70%;
+    max-height: 40%;
+}
+
+main {
+    background-color: rgb(230, 228, 225);
+}
+
+#discount {
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.items {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#itemImg {
+    width: 80%;
+    height: 80%;
+    margin-left: 3em;
+}
+
+#updates {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 10px;
+    gap: 4px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+#submit {
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: right;
+}
+
+@media (max-width: 650px) {
+    .logo {
+        width: 100%;
+        position: relative;
+    }
+}
